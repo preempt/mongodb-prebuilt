@@ -58,7 +58,7 @@ The version numbers of this module DO NOT match the version number of the [offic
 option:
 
 ```
-npm install --mongodb-version=3.2.0 mongodb-prebuilt
+npm install --mongodb-version=3.4.0 mongodb-prebuilt
 ```
 
 ## Programmatic usage
@@ -98,7 +98,7 @@ will have to go through the install process first.
 
 ```
 mongodb_prebuilt.start_server({
-	version: "3.2.0"
+	version: "3.4.0"
 }, function(err) {
 	if (!err) console.log('server started');
 });
@@ -177,4 +177,3 @@ export https_proxy="https://example.com"
 # win32
 set https_proxy="https://example.com"
 ```
-
